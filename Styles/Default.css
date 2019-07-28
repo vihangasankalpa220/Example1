@@ -1,0 +1,91 @@
+
+.navi{
+    height: 45px;
+    background-color: #666666;
+    text-align: left;
+	font-size:15px;
+}
+
+.navi ul{
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+}
+
+.navi .navi_active{
+    background-color:  #66ccff;
+}
+
+.navi ul li {
+    color: white;
+    display: inline-block;
+    padding: 10px 10px 0px 10px;
+    height:  100%;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+.navi ul .navi_inactive:hover{
+    background-color: #000000;
+}
+
+.navi ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.links a{
+    cursor: pointer;
+}
+
+.footer{
+    padding: 0px;
+    background-color: #333;
+    height: 100px;
+    color: white;
+	margin-top:110px;
+}
+
+.footer .ourScope{
+ padding: 0px;
+ padding-right: 200px;
+ padding-left: 20px;
+ float: left;
+ width: 70%;
+ border-right: solid 1px #fff;
+ height: 167%;
+ background-color: #66ccff;
+ color: black;
+ margin-top:100px;    
+}
+
+.ourScope p{
+    margin: 0px;
+    margin-top:6px;
+}
+.footer .sosialLinks{
+     width: 30%;
+     height: 167%;
+     float: left;
+     padding-top: 30px;
+     padding-left: 50px;
+     background-color: #66ccff;
+	 margin-top:100px;
+}
+
+.footer .sosialLinks .sicons{
+    margin-left: auto;
+    margin-right: auto;
+      margin-top:100px;
+}
+
+.footer .sosialLinks .sicons img{
+    display: inline-block;
+    height:40px;
+    width: 38px;
+    margin-right: 20px;
+	margin-top:-68px;
+}
+
